@@ -29,3 +29,10 @@ int main() {
 
     return 0;
 }
+
+/* LÓGICA:
+ * Como o tamanho do vetor só é conhecido em tempo de execução, utilizei 'malloc' para reservar o espaço na memória. 
+ * Incluí uma verificação para retornar erro caso a alocação falhasse. 
+ * Utilizei aritmética de ponteiros para ler os dados e para percorrer o vetor no cálculo da soma. 
+ * O programa encerra liberando a memória e retornando o status de execução.
+ */

@@ -44,3 +44,11 @@ int main() {
 
     return 0;
 }
+
+/* LÓGICA:
+ * Aqui eu montei uma matriz usando 'malloc' dentro de outro 'malloc', 
+ * Para fazer a transposta foi simples: 
+ * na hora de imprimir, eu troquei a ordem de leitura. 
+ * Em vez de ler linha por linha, eu li coluna por coluna.
+ * Terminei limpando a memoria com o free.
+ */

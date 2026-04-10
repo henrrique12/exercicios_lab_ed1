@@ -177,3 +177,12 @@ int main() {
 
     return 0;
 }
+
+/* LÓGICA:
+ * Neste sistema, utilizei 'structs' e 'typedef' para organizar os dados de Alunos e Turmas de forma hierárquica. 
+ * A estrutura principal utiliza um vetor de ponteiros para Turmas, onde cada Turma possui seu próprio vetor de ponteiros para Alunos.
+ * Apliquei alocação dinâmica com 'malloc' em dois níveis: primeiro para criar a Turma e, posteriormente, 
+ * para cada Aluno que é matriculado, garantindo que a memória seja usada apenas quando necessário.
+ * Implementei funções de busca para localizar turmas por ID e lógica de controle de vagas para evitar matrículas excedentes.
+ * e no final usei o free para liberar toda a memória alocada.
+ */

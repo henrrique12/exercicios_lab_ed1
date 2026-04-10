@@ -43,3 +43,9 @@ int main(){
 
     return 0;
 }
+
+/* LÓGICA:
+ * Criei listas dinâmicas para guardar as idades e os nomes de várias pessoas.
+ * Usei o 'fgets' para conseguir ler nomes completos sem dar erro no teclado.
+ * No final, usei laços para limpar tudo com o 'free'.
+ */

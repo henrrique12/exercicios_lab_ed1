@@ -19,3 +19,9 @@ int main(){
 
     return 0;
 }
+
+/* LÓGICA:
+ * Criei uma função 'soma' que não retorna nada (void), mas recebe os endereços de memória das variáveis. 
+ * Dentro da função, o resultado da conta é armazenado diretamente no endereço da variável 'resultado' da 'main', 
+ * permitindo que o valor persista fora da função.
+ */

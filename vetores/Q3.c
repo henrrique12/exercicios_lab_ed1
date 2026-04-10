@@ -36,3 +36,10 @@ int main(){
 
     return 0;
 }
+
+/* LÓGICA:
+ * Montei uma matriz dinâmica e usei a função 'rand' para o computador
+ * escolher números de 1 a 100 sozinho.
+ * Usei o 'srand' para que os números mudem toda vez que o programa abrir.
+ * Terminei o código limpando toda a memória com o 'free'.
+ */

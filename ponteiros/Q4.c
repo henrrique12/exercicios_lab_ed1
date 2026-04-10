@@ -23,3 +23,9 @@ int main(){
 
     return 0;
 }
+
+/* LÓGICA:
+ * Para trocar dois valores, usei ponteiros para conseguir alterar as variáveis originais da 'main'. 
+ * Utilizei uma variável auxiliar chamada 'temp' para guardar temporariamente o valor do primeiro endereço, 
+ * permitindo que a troca ocorresse sem que nenhum dado fosse sobrescrito e perdido durante o processo.
+ */

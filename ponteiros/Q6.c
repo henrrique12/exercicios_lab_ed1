@@ -10,3 +10,9 @@ int main(){
 
     return 0;
 }
+
+/* LÓGICA:
+ * Como o nome de um vetor já aponta para o seu primeiro elemento, atribuí 'v' ao ponteiro 'p'. 
+ * Usei um laço 'for' e aritmética de ponteiros '*(p+i)' para percorrer cada posição da memória 
+ * e imprimir os elementos, em vez de usar os colchetes tradicionais.
+ */

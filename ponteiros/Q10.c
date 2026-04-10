@@ -26,3 +26,9 @@ int main() {
 
     return 0;
 }
+
+/* LÓGICA:
+ * O laço 'for' percorre apenas até a metade do vetor (n/2), trocando o elemento da posição atual *(v+i) 
+ * com o seu correspondente no final do array *(v+(n-1-i)). 
+ * Usei uma variável 'temp' para garantir que os valores não se perdessem durante a troca de posições.
+ */

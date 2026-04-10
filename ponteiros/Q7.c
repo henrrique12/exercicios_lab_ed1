@@ -18,3 +18,8 @@ int main() {
 
     return 0;
 }
+
+/* LÓGICA:
+ * Usei um acumulador chamado 'soma' iniciado em zero e um laço que percorre o vetor usando o deslocamento do ponteiro. 
+ * A cada iteração, o valor contido no endereço atual é somado ao total, que é retornado ao final.
+ */

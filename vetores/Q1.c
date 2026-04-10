@@ -21,3 +21,10 @@ int main() {
     free(vetor);
     return 0;
 }
+
+/* LÓGICA:
+ * Primeiro, perguntei o tamanho e usei o 'malloc' para "reservar um espaço" exato no computador.
+ * Depois de guardar os números, e usei o laço 'for' para mostrar invertido:
+ * em vez de começar do primeiro, ele começa do último.
+ * No fim, usei o 'free' para limpar a memória.
+ */

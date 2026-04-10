@@ -18,3 +18,9 @@ int main() {
 
     return 0;
 }
+
+/* LÓGICA:
+ * Para encontrar o maior valor em um conjunto, passei o vetor para a função e assumi que o primeiro elemento (*v) era o maior. 
+ * Depois, percorri o restante do vetor comparando o valor atual *(v+i) com o valor guardado na variável 'maior'. 
+ * Se encontrasse um número superior, atualizava a variável.
+ */

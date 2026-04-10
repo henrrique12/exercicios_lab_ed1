@@ -80,3 +80,12 @@ int main() {
     free(vet);
     return 0;
 }
+
+/* LÓGICA:
+ * Eu comecei criando uma 'struct' para organizar o nome, cargo, ID e salário em um único bloco. 
+ * Usei a alocação dinâmica com 'malloc' para que o programa só reserve o espaço necessário para a quantidade 
+ * de funcionários que eu digitar na hora. 
+ * Para o preenchimento, usei ponteiros porque assim consigo alterar os dados diretamente na memória. 
+ * Também fiz uma lógica de comparação simples para percorrer o vetor e descobrir quem tem o maior e o 
+ * menor salário. No final, usei o 'free' para limpar a memória.
+ */

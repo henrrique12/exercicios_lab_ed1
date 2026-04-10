@@ -23,3 +23,8 @@ int main(){
 
     return 0;
 }
+
+/* LÓGICA: 
+ * Usei uma estrutura condicional 'if/else' para comparar os conteúdos apontados por '*a' e '*b' 
+ * e retornar aquele que fosse o maior para a variável 'resultado' na função principal.
+ */

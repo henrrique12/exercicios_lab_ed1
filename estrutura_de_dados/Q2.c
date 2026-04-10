@@ -75,3 +75,10 @@ int main() {
     free(vet);
     return 0;
 }
+
+/*LÓGICA:
+ * Para esse código, a minha ideia foi organizar os dados de cada pessoa dentro de uma 'struct'. 
+ * Como eu não sabia quantas pessoas seriam cadastradas, usei 'malloc' para criar o vetor dinamicamente.
+ * Na parte da leitura, usei um laço de repetição para comparar as idades 
+ * e encontrar a pessoa mais velha e a mais nova. Terminei o código liberando a memória com 'free', 
+ */
